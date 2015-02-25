@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardalte/proprietary/lib/egl/libGLESv2_mali.so:system/lib/egl/libGLESv2_mali.so \
     vendor/samsung/gardalte/proprietary/lib/libMali.so:system/lib/libMali.so \
     vendor/samsung/gardalte/proprietary/lib/hw/gralloc.exynos3.so:system/lib/hw/gralloc.exynos3.so \
+    vendor/samsung/gardalte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
     vendor/samsung/gardalte/proprietary/lib/libdisplay.so:system/lib/libdisplay.so \
     vendor/samsung/gardalte/proprietary/lib/libdisplaymodule.so:system/lib/libdisplaymodule.so \
     vendor/samsung/gardalte/proprietary/lib/libexynosfimc.so:system/lib/libexynosfimc.so \
@@ -106,22 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardalte/proprietary/lib/libgdmcprov.so:system/lib/libgdmcprov.so \
     vendor/samsung/gardalte/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     vendor/samsung/gardalte/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
-    vendor/samsung/gardalte/proprietary/etc/ExynosOMXReg.conf:system/etc/ExynosOMXReg.conf \
-    vendor/samsung/gardalte/proprietary/lib/libcsc.so:system/lib/libcsc.so \
-    vendor/samsung/gardalte/proprietary/lib/libExynosOMX263d.so:system/lib/libExynosOMX263d.so \
-    vendor/samsung/gardalte/proprietary/lib/libExynosOMX264d.so:system/lib/libExynosOMX264d.so \
-    vendor/samsung/gardalte/proprietary/lib/libExynosOMXCmn.so:system/lib/libExynosOMXCmn.so \
-    vendor/samsung/gardalte/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
-    vendor/samsung/gardalte/proprietary/lib/libExynosOMXCore.so:system/lib/libExynosOMXCore.so \
-    vendor/samsung/gardalte/proprietary/lib/libExynosOMXMp4vd.so:system/lib/libExynosOMXMp4vd.so \
-    vendor/samsung/gardalte/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
-    vendor/samsung/gardalte/proprietary/lib/libExynosOMXVc1d.so:system/lib/libExynosOMXVc1d.so \
-    vendor/samsung/gardalte/proprietary/lib/libExynosVideoApi.so:system/lib/libExynosVideoApi.so \
-    vendor/samsung/gardalte/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/samsung/gardalte/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/samsung/gardalte/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/samsung/gardalte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    vendor/samsung/gardalte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
     vendor/samsung/gardalte/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/gardalte/proprietary/bin/IPSecService:system/bin/IPSecService \
     vendor/samsung/gardalte/proprietary/csc/sales_code.dat:system/csc/sales_code.dat \
@@ -137,9 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardalte/proprietary/lib/libakm.so:system/lib/libakm.so \
     vendor/samsung/gardalte/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/gardalte/proprietary/etc/wifi/bcmdhd_apsta.bin_b2:system/etc/wifi/bcmdhd_apsta.bin_b2 \
-    vendor/samsung/gardalte/proprietary/etc/wifi/bcmdhd_mfg.bin_b2:system/etc/wifi/bcmdhd_mfg.bin_b2 \
     vendor/samsung/gardalte/proprietary/etc/wifi/bcmdhd_p2p.bin_b2:system/etc/wifi/bcmdhd_p2p.bin_b2 \
     vendor/samsung/gardalte/proprietary/etc/wifi/bcmdhd_sta.bin_b2:system/etc/wifi/bcmdhd_sta.bin_b2 \
-    vendor/samsung/gardalte/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
-    vendor/samsung/gardalte/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/gardalte/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
