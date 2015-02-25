@@ -145,15 +145,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardalte/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
     vendor/samsung/gardalte/proprietary/bin/at_distributor:system/bin/at_distributor \
     vendor/samsung/gardalte/proprietary/bin/IPSecService:system/bin/IPSecService \
-    vendor/samsung/gardalte/proprietary/bin/rild:system/bin/rild \
     vendor/samsung/gardalte/proprietary/etc/plmn_delta.bin:system/etc/plmn_delta.bin \
     vendor/samsung/gardalte/proprietary/etc/plmn_se13.bin:system/etc/plmn_se13.bin \
     vendor/samsung/gardalte/proprietary/lib/libatparser.so:system/lib/libatparser.so \
     vendor/samsung/gardalte/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
     vendor/samsung/gardalte/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
-    vendor/samsung/gardalte/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/samsung/gardalte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-    vendor/samsung/gardalte/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/gardalte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/gardalte/proprietary/etc/PDC.ini:system/etc/PDC.ini \
     vendor/samsung/gardalte/proprietary/lib/hw/sensors.universal3470.so:system/lib/hw/sensors.universal3470.so \
