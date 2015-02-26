@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardalte/proprietary/vendor/firmware/bcm4334.hcd:system/vendor/firmware/bcm4334.hcd \
     vendor/samsung/gardalte/proprietary/vendor/firmware/BT_FW_VER_BCM4334B0_002.001.013.1810.2178_Garda_ORC.hcd:system/vendor/firmware/BT_FW_VER_BCM4334B0_002.001.013.1810.2178_Garda_ORC.hcd \
     vendor/samsung/gardalte/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-    vendor/samsung/gardalte/proprietary/vendor/lib/hw/camera.universal3470.so:system/vendor/lib/hw/camera.universal3470.so \
+    vendor/samsung/gardalte/proprietary/vendor/lib/hw/camera.vendor.universal3470.so:system/vendor/lib/hw/camera.vendor.universal3470.so \
     vendor/samsung/gardalte/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/gardalte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/gardalte/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
