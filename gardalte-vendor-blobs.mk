@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gardalte/proprietary/lib/libvirtualdisplay.so:system/lib/libvirtualdisplay.so \
     vendor/samsung/gardalte/proprietary/vendor/lib/hw/hwcomposer.exynos3.so:system/vendor/lib/hw/hwcomposer.exynos3.so \
     vendor/samsung/gardalte/proprietary/vendor/lib/hw/keystore.exynos3.so:system/vendor/lib/hw/keystore.exynos3.so \
-    vendor/samsung/gardalte/proprietary/vendor/lib/hw/lights.exynos3.so:system/vendor/lib/hw/lights.exynos3.so \
     vendor/samsung/gardalte/proprietary/bin/lpm:system/bin/lpm \
     vendor/samsung/gardalte/proprietary/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     vendor/samsung/gardalte/proprietary/media/battery_batteryerror.qmg:system/media/battery_batteryerror.qmg \
